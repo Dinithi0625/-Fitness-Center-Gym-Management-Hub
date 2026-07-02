@@ -3,57 +3,113 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    border: none;
-    outline: none;
+    list-style: none;
     scroll-behavior: smooth;
-    font-family: "poppins";
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("./img/homePageBackgroundImg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .header{
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 30px;
+    height: 90px;
+    padding: 0 80px;
+    background: rgba(64, 2, 9,0.95);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
+
+.logo{
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.logo span{
+    color: #6a040f;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    margin-left: 45px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.navbar a:hover{
+    color: #6a040f;
+}
+
 #menu-icon{
     display: none;
+    font-size: 32px;
 }
-.logo{
-    font-size: larger;
-    font-weight: 500;
-    cursor: pointer;
-}
-.navbar a{
-    font-size: larger;
-    margin-left: 4rem;
-    font-weight: 300;
-}
- 
+
 .home{
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 100px;
+    align-items: center;
+    padding: 120px 80px 60px;
 }
 
 .home-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: 50%;
 }
 
 .home-content h1{
-    font-size: larger;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.home-content h1 span{
+    color: #6a040f;
 }
 
 .home-content h3{
-    font-size: large;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #d9d9d9;
 }
- 
+
+.home-content h3 span{
+    color: #6a040f;
+}
+
+.btn{
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    background: #6a040f;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    box-shadow: 0px 0px 25px rgba(106,4,15,0.5);
+}
+
+.btn:hover{
+    background: white;
+    color: #400209;
+    transform: scale(1.05);
+}
