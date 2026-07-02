@@ -9,6 +9,48 @@
 
 .ArtEquipment{}
 
+.na{
+    position: static;
+}
 
 
-.
+.our-feature{
+    display: flex;
+    position: absolute ;
+    top: 500px;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.our-feature_container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    width: 100%;
+}
+
+
+.our-feature_state-of-the-art-equipment{
+    padding: 50px;
+}
+
+
+
+.our-feature_certified-expert-coaching{
+    padding:50px;
+}
+
+
+
+.our-feature_dynamic-group-fitness-classes{
+    padding: 50px;
+}
+
+.our-feature_premium-amenities-and-comfort{
+    padding: 50px;
+}
+
+.our-feature_flexible-membership-and-access{
+    padding: 50px;
+}
