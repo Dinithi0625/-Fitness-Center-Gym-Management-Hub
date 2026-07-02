@@ -11,35 +11,30 @@
 .header{
     position: fixed;
     width: 100%;
-    padding: 4rem 12%;
-    backdrop-filter: blur(10px);
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
 }
 #menu-icon{
-    font-size: 3.6rem;
     display: none;
 }
 .logo{
-    font-size: 3rem;
+    font-size: larger;
     font-weight: 500;
     cursor: pointer;
-    transition: 0.3 ease;
 }
 .navbar a{
-    font-size: 1.8rem;
+    font-size: larger;
     margin-left: 4rem;
     font-weight: 300;
-    border-bottom: 3px solid transparent;
-    transition: 0.3 ease;
 }
-/* 
+ 
 .home{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 100px;
 }
 
 .home-content{
@@ -50,26 +45,15 @@
 }
 
 .home-content h1{
-    font-size: 4rem;
+    font-size: larger;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 
 .home-content h3{
-    font-size: 2.2rem;
+    font-size: large;
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
-.home-content h3 span{
-    position: relative;
-}
-
-.home-content h3 span::after{
-    content: "";
-    position: absolute;
-    right: -6px;
-    width: 2px;
-    height: 100%;
-    animation: blink .7s infinite;
-} */
+ 
