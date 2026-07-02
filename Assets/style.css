@@ -13,6 +13,14 @@
     position: static;
 }
 
+.main-image{
+    display: flex;
+    position: absolute;
+    top: 200px;
+
+    
+}
+
 
 .our-feature{
     display: flex;
@@ -20,14 +28,20 @@
     top: 500px;
     text-align: center;
     flex-direction: column;
+  
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
 
 }
 
 .our-feature_container {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid: gap 1rem;;
+
 }
 
 
