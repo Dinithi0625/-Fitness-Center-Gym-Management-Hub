@@ -4,60 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Package</title>
     <link rel="stylesheet" href="Assets\style.css">
 </head>
 
 <body>
     <section class="checkout">
-        <div class="left-side">
+
             <h1>Package Name</h1>
+
             <label>Branch:</label>
-            <select>
-                <option>Select Branch</option>
+            <select name="branch" required>
+                <option value="" selected disabled>Select Branch</option>
+                <option value="colombo">Colombo</option>
+                <option value="kandy">Kandy</option>
+                <option value="galle">Galle</option>
+                <option value="matara">Matara</option>
+                <option value="kurunegala">Kurunegala</option>
             </select>
+
             <label>Time:</label>
-            <select>
-                <option>Select Time</option>
+            <select name="time" id="time" required>
+                <option value="" selected disabled>Select Time</option>
+                <option value="Morning (6:00 AM - 10:00 AM)">Morning (6:00 AM - 10:00 AM)</option>
+                <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12:00 PM - 4:00 PM)</option>
+                <option value="Evening (5:00 PM - 9:00 PM)">Evening (5:00 PM - 9:00 PM)</option>
             </select>
+
             <div class="row">
                 <div class="input-box">
                     <label>Package Name:</label>
-                    <select>
-                        <option>Select Package</option>
+                    <select name="package" id="package" required>
+                        <option value="" selected disabled>Select Package</option>
+                        <option value="Basic">Basic Package</option>
+                        <option value="Standard">Standard Package</option>
+                        <option value="Premium">Premium Package</option>
+                        <option value="VIP">VIP Package</option>
                     </select>
                 </div>
                 <div class="input-box">
                     <label>Membership:</label>
-                    <select>
-                        <option>Select Duration</option>
+                    <select name="duration" id="duration" required>
+                        <option value="" selected disabled>Select Duration</option>
+                        <option value="1 Month">1 Month</option>
+                        <option value="3 Months">3 Months</option>
+                        <option value="6 Months">6 Months</option>
+                        <option value="12 Months">12 Months</option>
                     </select>
                 </div>
             </div>
             <button class="find-btn">Find</button>
-        </div>
 
-        <div class="right-side">
-            <h2>2 Gents (Buddy Offer)</h2>
-            <div class="summary">
-                <div class="details">
-                    <h3>2 Gents (Buddy Offer)</h3>
-                    <p>MOORS SPORTS CLUB</p>
-                    <p>Full Time</p>
-                    <p>Annual</p>
-                </div>
-                <div class="price">
-                    <span>1 X</span>
-                    <h3>Rs.45000</h3>
-                </div>
-            </div>
-            <div class="promo">
-                Promotion Code here!
-            </div>
-            <div class="total">
-                <h3>Total</h3>
-                <h3>Rs.45000</h3>
-            </div>
             <div class="contact">
                 <h2>Contact</h2>
                 <input type="email" placeholder="Email">
@@ -68,7 +65,6 @@
                 </div>
                 <input type="text" placeholder="Address">
             </div>
-        </div>
     </section>
 </body>
 </html>
