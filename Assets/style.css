@@ -87,7 +87,7 @@ body{
 .contact h2{
     text-align: center;
     font-size: 32px;
-    color: #ffb400;
+    color: #9d0208;
     margin-bottom: 30px;
 }
 
@@ -110,4 +110,22 @@ body{
 
 .contact .row input{
     width: 50%;
+}
+.submit-btn{
+    width: 100%;
+    margin-top: 35px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #6a2a2c;
+    color: #f1ecec;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit-btn:hover{
+    background: #9d0208;
+    transform: scale(1.03);
 }
