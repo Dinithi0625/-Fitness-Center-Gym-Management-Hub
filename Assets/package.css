@@ -17,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 40px;
+    background-image:url(./img/wmremove-transformed\ \(2\).png) ;
 }
 .package{
     width: 700px;
